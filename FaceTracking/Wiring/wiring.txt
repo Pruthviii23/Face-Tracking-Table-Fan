@@ -1,0 +1,10 @@
+| Component                     | Pin/Port on Arduino                  | Connection Details                                   |
+| ----------------------------- | ------------------------------------ | ---------------------------------------------------- |
+| Servo X (Pan)                 | D9                                   | Orange/Yellow wire (Signal)                          |
+|                               | 5V                                   | Red wire (Power)                                     |
+|                               | GND                                  | Brown/Black wire (Ground)                            |
+| Servo Y (Tilt)                | D10                                  | Orange/Yellow wire (Signal)                          |
+|                               | 5V                                   | Red wire (Power)                                     |
+|                               | GND                                  | Brown/Black wire (Ground)                            |
+| External 5V Source (Optional) | Connect to servo VCC and Arduino GND | Use if servos draw too much current from Arduino USB |
+| Laptop / PC                   | USB Port                             | Connects to Arduino for data + power                 |
